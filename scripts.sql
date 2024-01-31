@@ -7,15 +7,17 @@ CREATE TABLE Registration (
 );
 
 -- To insert a new record (Create)
-INSERT INTO Registration (ID, Name, Email, DateOfBirth) VALUES (1, 'John Doe', 'john.doe@example.com', '1990-01-01');
+INSERT INTO Registration (ID, Name, Email, DateOfBirth) VALUES (1, 'Shashank S', 'shashanks7129.com', '2001-04-17');
 
 -- To retrieve all records (Read)
 SELECT * FROM Registration;
 -- To retrieve specific record based on ID (Read)
 SELECT * FROM Registration WHERE ID = 1;
 
--- To update an existing record
+-- To update an existing record(Update)
 UPDATE Registration SET Name = 'Updated Name' WHERE ID = 1;
 
--- To delete a record
+-- To delete a record(Delete)
 DELETE FROM Registration WHERE ID = 1;
+
+-- All operations of CRUD have been completed above
